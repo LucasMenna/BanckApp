@@ -43,7 +43,7 @@ namespace BankingApp.Data
 
             modelBuilder.Entity<Transaction>()
                 .ToTable("Transactions")
-                .HasOne(c => c.Custom)
+                .HasOne(c => c.Customer)
                 .WithMany(t => t.Transaction)
                 .HasConstraintName("FK_Customers_Transactions");
 

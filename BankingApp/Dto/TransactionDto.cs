@@ -12,5 +12,7 @@ namespace BankingApp.Dto
         public virtual int TransactionDate { get; set; }
 
         public virtual decimal Amount { get; set; }
+
+        public virtual int Sign { get; set; }
     }
 }

@@ -17,6 +17,10 @@ namespace BankingApp.Domain
         [Required]
         public decimal Limit { get; set; }
 
+        [Required]
+        public int NumberCard { get; set; }
+
+
 
     }
 }

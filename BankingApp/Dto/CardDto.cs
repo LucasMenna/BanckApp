@@ -10,5 +10,7 @@ namespace BankingApp.Dto
         public virtual int CardType { get; set; }
 
         public virtual decimal Limit { get; set; }
+
+        public virtual int NumbreCard { get; set; }
     }
 }

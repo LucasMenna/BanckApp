@@ -19,11 +19,11 @@ namespace BankingApp.Domain
         public decimal Amount { get; set; }
 
         [Required]
-        public string Sing { get; set; }
+        public int Sing { get; set; }
 
         public virtual Account Account { get; set; }
 
-        public virtual Customer Custom { get; set; }
+        public virtual Customer Customer { get; set; }
 
     }
 }
